@@ -38,7 +38,7 @@ async def dm(ctx, *, msg):
     await ctx.author.send(f"You said {msg}")
     
 @bot.command()
-aysnc def reply(ctx):
+async def reply(ctx):
     await ctx.reply("This is a reply to your message!")
 
 @bot.command()
